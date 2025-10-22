@@ -1,11 +1,44 @@
-# Discord Cadastro Bot
+# 🎮 Discord Cadastro Bot
 
-Este é um bot para Discord que permite o cadastro de usuários através de um painel web.
+[![Node.js](https://img.shields.io/badge/Node.js-22.0-brightgreen?style=flat-square)](https://nodejs.org/)
+[![GitHub issues](https://img.shields.io/github/issues/SmokeBrazil/discord-cadastro?style=flat-square)](https://github.com/SmokeBrazil/discord-cadastro/issues)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 
-## Como rodar
+Bot de Discord completo que permite cadastrar usuários através de um **modal interativo** e gerenciar os dados via **painel web** em Node.js + Express + MySQL.
 
-1. Clone este repositório.
-2. Instale as dependências: `npm install`.
-3. Crie um arquivo `.env` com as variáveis necessárias.
-4. Inicie o bot: `node bot.js`.
-5. Acesse o painel: `node web.js`.
+---
+
+## 💡 Funcionalidades
+
+- Modal de cadastro no Discord com campos:
+  - Nome
+  - Sobrenome
+  - Idade
+  - Email
+  - CPF
+- Envio automático dos dados para a API do painel web
+- Painel web moderno para visualizar e gerenciar os cadastros
+- Validação básica de dados no bot
+- Estrutura escalável e pronta para VPS
+
+---
+
+## 🛠 Tecnologias
+
+- [Node.js](https://nodejs.org/)
+- [Discord.js](https://discord.js.org/)
+- [Express](https://expressjs.com/)
+- [MySQL](https://www.mysql.com/)
+- [Sequelize](https://sequelize.org/)
+- [EJS](https://ejs.co/)
+- [Axios](https://axios-http.com/)
+
+---
+
+## 🚀 Como rodar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/SmokeBrazil/discord-cadastro.git
+cd discord-cadastro
