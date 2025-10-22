@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastros - Painel</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>📋 Lista de Cadastros</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Nome</th>
+        <th>Sobrenome</th>
+        <th>Idade</th>
+        <th>Email</th>
+        <th>CPF</th>
+        <th>Discord ID</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% users.forEach(user => { %>
+        <tr>
+          <td><%= user.id %></td>
+          <td><%= user.nome %></td>
+          <td><%= user.sobrenome %></td>
+          <td><%= user.idade %></td>
+          <td><%= user.email %></td>
+          <td><%= user.cpf %></td>
+          <td><%= user.discordId %></td>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+</body>
+</html>
