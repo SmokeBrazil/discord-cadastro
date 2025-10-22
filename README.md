@@ -42,3 +42,6 @@ Bot de Discord completo que permite cadastrar usuários através de um **modal i
 ```bash
 git clone https://github.com/SmokeBrazil/discord-cadastro.git
 cd discord-cadastro
+npm install
+node web.js
+node bot.js
